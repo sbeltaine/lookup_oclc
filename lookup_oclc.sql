@@ -9,3 +9,5 @@ SELECT oclc_numbers.oclc_number,
 	       oclc_numbers.oclc_number = instances_identifiers.value
 	JOIN inventory_instances
 	    ON instances_identifiers.instances_id = inventory_instances.id;
+
+-- This is a test query.
