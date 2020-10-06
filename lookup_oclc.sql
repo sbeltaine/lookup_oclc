@@ -10,4 +10,5 @@ SELECT oclc_numbers.oclc_number,
 	JOIN inventory_instances
 	    ON instances_identifiers.instances_id = inventory_instances.id;
 
--- This is a test query.
+-- This is a test query.  TEST 2.
+
