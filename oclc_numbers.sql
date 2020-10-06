@@ -117,6 +117,3 @@ INSERT INTO local.oclc_numbers (oclc_number) VALUES ('(OCoLC)1149519178');
 CREATE INDEX ON local.oclc_numbers (oclc_number);
 
 COMMIT;
-
-VACUUM local.oclc_numbers;
-ANALYZE local.oclc_numbers;
