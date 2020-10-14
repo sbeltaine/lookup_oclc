@@ -1,3 +1,4 @@
+--What a fabulous query!--
 SELECT oclc_numbers.oclc_number,
        instances_identifiers.instances_id,
        inventory_instances.hrid,
